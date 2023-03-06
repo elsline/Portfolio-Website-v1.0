@@ -298,10 +298,207 @@ section{
         background-image: none;
 
     }
-
 }
+@media
+(min-width:260px) and (max-width: 312px){
+    header{
+        padding: 12px 20px;
+        }
+    .logo{
+        font-size: 20px;
+        }
+    .nav-link {
+        font-size: 11px;
+        padding: 0 0px;
+        }
+    .main-section{
+        
+        padding: 80px 20px;
+        background-image: none;
+        background-color: #0c0f1c;
+        background-size: cover; 
+        }
+    .main-section h2 {
+        font-size: 11px;
+    }
+    .main-btn{
+        font-size: 15px;
+
+    }
+    .main-section span{
+        font-size: 45px;
+    }
+    
+    .main-section h3{
+        font-size: 14px;
+    }
+    .social-icons {
+
+        width: 161px;
+    }
+
+    .social-icons a{
+        font-size: 22px;
+    }
+    
+    section {
+    
+        padding: 80px 20px;
+    }
+    .S-title{
+        font-size: 24px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon {
+        font-size: 90px;
+    
+    }
+    .info h3 {
+    
+        font-size: 13px;
+    }
+    .info p {
+            font-size: 11px
+    }
+    .card{
+        width: 230px
+    }
+    .p-card {
+        width: 220px;
+    }
+
+
+    
+    .project-title{
+        font-size: 10px;
+    
+    }
+    
+    .more-details{
+        font-size: 8px;
+    }
+    
+    .contact-us .icon{
+        font-size: 60px;
+    }
+    .contact-us .card{
+        width: 230px;
+    }
+    
+    
+    .footer-title {
+    
+        font-size: 10px;
+    }
+    
+    .footer .social-icons a{
+        font-size: 12px;
+    }
+    
+    .footer .social-icons {
+        width: 90px;
+    }
+
+    }
+
+    @media
+    (min-width:311px) and (max-width: 412px){
+        header{
+            padding: 12px 20px;
+        }
+        .nav-link {
+            font-size: 13px;
+            padding: 0 2px;
+        }
+        .main-section{
+        
+        padding: 80px 20px;
+        background-image: none;
+        background-color: #0c0f1c;
+        background-size: cover; 
+        }
+        .main-section h2 {
+            font-size: 13px;
+    }
+    .main-section span{
+        font-size: 50px;
+    }
+    
+    .main-section h3{
+        font-size: 17px;
+    }
+    
+    section {
+    
+        padding: 80px 20px;
+    }
+    .S-title{
+        font-size: 26px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon {
+        font-size: 100px;
+    
+    }
+    .info h3 {
+    
+        font-size: 16px;
+    }
+    .info p {
+            font-size: 12px
+    }
+    .card{
+        width: 250px
+    }
+    .p-card {
+        width: 250px;
+    }
+    .p-card 
+
+    
+    .project-title{
+        font-size: 11px;
+    
+    }
+    
+    .more-details{
+        font-size: 9px;
+    }
+    
+    .contact-us .icon{
+        font-size: 60px;
+    }
+    .contact-us .card{
+        width: 250px;
+    }
+    
+    
+    .footer-title {
+    
+        font-size: 15px;
+    }
+    
+    .footer .social-icons{
+        font-size: 17px;
+    }
+    
+    .footer .social-icons {
+        width: 104px;
+    }
+    
+    }
+    
+
+
+
 @media 
-(max-width: 768px)
+(min-width:411px) and ( max-width: 768px)
 
 {
     header{
@@ -328,9 +525,6 @@ section{
 .main-section h3{
     font-size: 21px;
 }
-
-
-
 
 section {
 
@@ -386,18 +580,3 @@ section {
 }
 
 }
-
-
-
-
-/* @keyframes change-color{
-    from { 
-        background-color: rebeccapurple;
-
-    }
-    to {
-
-        background-color: black;
-
-    }
-} */
